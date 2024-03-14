@@ -7,7 +7,7 @@
     --yellow-color: #FFFF00;
     --yellow-color: #f8f184;
     --blue-color: #19587d;
-    --red-color: #
+    --white-color: #fff;
 }
 *{
     margin: 0;
@@ -38,4 +38,26 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 30px 0;
+}
+ul{
+list-style: none;
+display: flex;
+}
+nav ul a{
+    color: var(--white-color);
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'rajdhani';
+}
+nav ul a:hover{
+    color: var(--yellow-color);
+}
+#hero{
+    background-image: url(../Assets/Illustrations/Bathome1.png);
+    background-size:cover;
+    height: 800px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-color: #19587d;
 }
