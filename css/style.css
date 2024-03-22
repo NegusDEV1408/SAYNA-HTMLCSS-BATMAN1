@@ -31,7 +31,7 @@ button{
 body{
     background-color: black;
     color: white;
-    font-family: 'Space-Grotesk';
+    font-family: 'Space Grotesk';
     font-weight: 300;
 }
 nav{
@@ -60,4 +60,13 @@ nav ul a:hover{
     background-position: top center;
     background-repeat: no-repeat;
     background-color: #19587d;
+    background-size: cover;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 60%;
+    
 }
